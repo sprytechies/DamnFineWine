@@ -1,0 +1,294 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#ffffff;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    text-align:center;
+}
+
+.logo{
+    margin:55px 0px 0px 0px;
+}
+
+.hero{
+    margin: 30px 0px 30px 0px;
+}
+
+.email-form{
+    font-size:28px;
+    margin-bottom: 30px;
+    
+}
+
+.bottom-text p{
+    font-size:20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.header{
+    background-color: #6D0000;
+    color: #ffffff;
+    width: 100%;
+    z-index: 1;
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    font-size:28px;
+}
+
+.header span{
+    vertical-align: middle;
+}
+
+.refer-top{
+    background: #FCFBF8;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #F3EFE4;
+}
+
+.copy-link{
+    background: white;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 20px 100px;
+    padding: 11px 0;
+    color: #444;
+}
+
+#email-submit .email{
+    background: none repeat scroll 0 0 #fff;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 16px;
+    height: 37px;
+    outline: medium none;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+}
+
+#email-submit .error{
+    border-color: red !important;
+}
+
+#email-submit .submit{
+    background:#6d0000;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+    height: 41px;
+    padding: 8px 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.share-list{
+    list-style-type: none;
+    margin: 50px 0px 10px 0px;
+}
+
+.share-list li{
+    display: inline-block;
+    padding: 10px 60px;
+}
+
+#share-list-middle{
+    border-right: 1px solid #BAB9BA;
+    border-left: 1px solid #BAB9BA;
+}
+
+.refer-middle{
+    margin: 60px 0px 100px 0px;
+}
+
+.sub-text{
+    font-size: 22px;
+    color: #6D6E71;
+}
+
+.sub-text span{
+    color: #6D0000;
+}
+
+table { 
+    border-collapse: collapse; 
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+table.center tr{
+    padding: 0px;
+    margin: 0px;
+}
+
+table.center td{
+    padding: 75px 30px;
+}
+
+table.center .circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid #DAD9D2;
+    text-align: center;
+    line-height: 60px;
+    color: #868282;
+    overflow: hidden;
+    background: #F1F0EE;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+table.center .circle:hover {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid #6D0000;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    overflow: hidden;
+    background: #6D0000;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+table.center .cmiddle{
+    padding: 75px 3px;
+    background-color: #cccccc;
+}
+
+table.center .cfirst{
+    width: 50%;
+}
+
+.product .tooltip{
+    height: 254px;
+    border: 4px solid #e2d6bb;
+    position: absolute;
+    margin: 25px;
+    display: none;
+    background: #FFF;
+}
+
+.product .tooltip img{
+    margin: 0 auto;
+    display: block;
+}
+
+.product:hover .tooltip{
+    display: block;
+}
+
+.refer .hero {
+    margin-top: 100px
+}
+
+.refer .blue-text{
+    margin: 40px 100px 10px 100px;
+    font-size: 28px;
+    color: #009DB7;
+}
+
+.refer .light{
+
+}
+
+.refer .bold{
+    font-weight: bold;
+}
+
+.refer .main-tagline{
+    font-size: 60px;
+    color: #6D0000;
+    margin: 30px 25px 0px 25px;
+}
+
+.refer-middle .progress{
+    text-align: center;
+    width: 7px;
+    height: 150px;
+    left: 50%;
+    z-index: 0.9;
+    position: absolute;
+    background-color: #6D0000;
+    margin-top: -1030px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:30px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
